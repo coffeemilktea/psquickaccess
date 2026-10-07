@@ -36,3 +36,13 @@ The script uses the `Shell.Application` COM object and invokes the `pintohome` v
 - Quick Access only pins **folders**. File paths are skipped with a warning — pin the file's containing folder instead.
 - Paths that don't exist are reported and skipped; the remaining paths are still processed.
 - To unpin a folder, right-click it under Quick Access in File Explorer and choose **Unpin from Quick access**.
+
+## Related scripts
+
+- [psport](https://github.com/coffeemilktea/psport) — manage Windows Defender Firewall port rules
+- [installwinget](https://github.com/coffeemilktea/installwinget) — install WinGet without the Microsoft Store
+
+## License
+
+MIT — see [LICENSE](LICENSE).
+
